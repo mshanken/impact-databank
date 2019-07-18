@@ -2,16 +2,16 @@
 /* TEAM */
 
                             
-Your title: Your name.
+Your title: Edison A. Leon
 
                             
-Site: email, link to a contact form, etc.
+Site: dev@mshanken.com, link to a contact form, etc.
 
                             
-Twitter: your Twitter username.
+Twitter: @mshanken.
 
                             
-Location: City, Country.
+Location: NY, USA.
 
                          
                  
@@ -22,7 +22,7 @@ Location: City, Country.
 /* THANKS */
 
 							
-Name: name or url
+Name: Impact Databank
 
 						
                  
@@ -33,13 +33,13 @@ Name: name or url
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2019/07/18 
 
                             
-Standards: HTML5, CSS3,..
+Standards: HTML5, CSS3.
 
                             
-Components: Modernizr, jQuery, etc.
+Components: Bootstrap, HarpJS, Grunt, .
 
                             
 Software: Software used for the development

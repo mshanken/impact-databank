@@ -14,7 +14,7 @@
 	      <script src="/js/vendor/html5shiv.js"></script>
 	      <script src="/js/vendor/respond.src.js"></script>
 	    <![endif]-->
-		<script src="/js/vendor/modernizr.js"></script>
+		<%# <script src="/js/vendor/modernizr.js"></script> %>
 		
 	</head>
 	
@@ -27,18 +27,14 @@
         <![endif]-->
 
 		<%- partial("_themes/default/_header") %>
-		<%- partial("_themes/default/_navbar") %>
+		<%# - partial("_themes/default/_navbar") %>
 
 		<main id="main" class="container main" role="main">
-			<% if ( current.path[0] === "index" || current.source === "404" || current.source === "info") { %>
-	      		<%- yield %>
-	  		<% } else  { %>
-	  			<%- partial("_themes/default/partials/_content", { yield: yield }) %>
-	  		<% } %>
+			<%- yield %>
 		</main>
 		
 		<%- partial("_themes/default/_footer") %>
-		<%- partial("_themes/default/partials/_scripts") %>
+		<%#- partial("_themes/default/partials/_scripts") %>
 	</body>
 </html>
     	

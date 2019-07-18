@@ -1,13 +1,13 @@
 {
   "globals": {
-    "title": "Your website globals",
-    "site_tagline":"Your site tagline 1",
+    "title": "Impact Databank Review and Forecast",
+    "site_tagline":"Get your first look at 2018 data and 2019 projections for the wine, spirits and cider industries",
     "subject":"",
     "url": "www.yoursite.com",
-    "description": "Your site meta description",
-    "keywords": "your, tags",
+    "description": "U.S. Databank 2019 Reports &nbsp; Get your first look at 2018 data and 2019 projections for the wine, spirits and cider industries: • Consumption Trends • Brand Depletions • Wine/Spirits Drinker Demographics • Advertising Expenditures • Pricing/Retail Sales Analysis • Continue reading ",
+    "keywords": "impact databank reports, projections for the wine, spirits and cider industries, Consumption Trends, Brand Depletions, Wine/Spirits Drinker Demographics, Pricing/Retail Sales Analysis",
     "copyright": "M. Shanken Communications, Inc.",
-    "name": "project name",
+    "name": "Impact Databank",
     "email": "dev@mshanken.com",
     "layout": "false",
     "ga": false,
