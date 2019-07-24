@@ -1,0 +1,45 @@
+# http://humanstxt.org/
+/* TEAM */
+
+                            
+Your title: Edison A. Leon
+
+                            
+Site: dev@mshanken.com, link to a contact form, etc.
+
+                            
+Twitter: @mshanken.
+
+                            
+Location: NY, USA.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Impact Databank
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2019/07/18 
+
+                            
+Standards: HTML5, CSS3.
+
+                            
+Components: Bootstrap, HarpJS, Grunt, .
+
+                            
+Software: Software used for the development
