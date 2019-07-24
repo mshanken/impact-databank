@@ -7,10 +7,51 @@
 //
 // Load core variables and mixins
 // --------------------------------------------------
-
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap";
 @import "bower_components/bootstrap/scss/functions";
 @import "custom";
 @import "bower_components/bootstrap/scss/bootstrap";
 //
 // Custom style starts here
 // --------------------------------------------------
+
+h2{
+	font-size: 1.5rem;
+}
+h2 a:link, h2 a:hover, h2 a:visited, h2 a:active{
+	color: #212529;
+}
+hr{
+	border-top-color: #892b2b;
+	border-top-width: 4px;
+	width: 97%
+}
+hr.hr-bottom{
+	border-top-width: 8px;
+}
+.section-footer{
+	background-color: #892b2b;
+}
+.section-footer p{
+	font-size: 1.3rem;
+}
+.section-footer p,
+.section-footer p a,
+.section-footer p a:hover,
+.section-footer p a:visited,{
+	color: #fff;
+}
+@include media-breakpoint-up(md) {
+	h2{
+		font-size: 2rem;
+	}
+	hr{
+		border-top-width: 7px;
+	}
+	hr.hr-bottom{
+		border-top-width: 14px;
+	}
+	.section-footer p{
+		font-size: 2rem
+	}
+}
