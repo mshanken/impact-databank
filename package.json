@@ -28,7 +28,7 @@
     "jquery": "cp node_modules/jquery/dist/jquery.js _site/public/js/vendor/",
     "jquery-1": "jquery-builder > _site/public/js/vendor/jquery-1.11.1.js",
     "jquery-2": "jquery-builder --version 2.1.1 > _site/public/js/vendor/jquery-2.1.1.js",
-    "server": "harp server _site",
+    "server": "harp _site",
     "compile": "harp compile _site www && grunt concat && grunt uglify",
     "gh-pages": "harp compile _site www && grunt concat && grunt uglify && grunt copy:ghpages",
     "static": "grunt harp:staticserver",
@@ -41,8 +41,8 @@
     "html5shiv": "^3.7.3",
     "jay-respond": "^1.4.3",
     "jquery": "^3.5.1",
-    "jquery-builder": "^0.7.0",
-    "modernizr": "^3.11.3"
+    "modernizr": "^3.11.3",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
@@ -50,8 +50,8 @@
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^0.11.0",
     "load-grunt-configs": "^1.0.0",
+    "grunt-contrib-uglify": "^5.1.0",
     "load-grunt-tasks": "^5.1.0"
   },
   "keywords": [
