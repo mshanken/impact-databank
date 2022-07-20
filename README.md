@@ -1,25 +1,25 @@
 # Impact Databank Sale Site
 
-A new promotional site for that will replace [this page](http://www.shankennewsdaily.com/index.php/impact-databank-report/)
+Shanken's [Impact Databank](https://www.impactdatabank.com/) Review and Forecast.
 
 ## How it works
 
-All you need to run this project is docker.
+All you need to run this project is Node JS.
 
-```docker-compose up -d``` builds the project in a docker container. Once that's done. Type this URL [http://localhost:9000](http://localhost:9000/) in your browser to check web site.
+To start, just run ```npm install``` after you've cloned this repo in you local machine inside its root folder.
 
-```docker-compose exec web npm run browsersync``` starts browser-sync [http://localhost:3000/](http://localhost:3000/) hit ```Ctrl + P and Ctrl + Q``` to detach.
+```npm run serve``` runs [HarpJS](https://github.com/sintaxi/harp) in parallel with browsersync, so just head to [http://localhost:9000](http://localhost:9000/) to preview this project in your browser.
 
-```docker-compose exec web npm run compile``` compiles served site into static HTML in a folder "www"
+Start working on your changes or updates. Any changes you made here can be instanly sync in the browser. Once you are done just compile and check the static version found in the www folder.
 
-```docker-compose exec web npm run gh-pages```  what this command does is compiled (if not compiled) then drops compiled files into root folder.<br>
+```npm run compile``` compiles into static HTML in a folder "www" (you can skip the compilation though)
+
+Once ready to deploy just head to the ```gh-pages``` branch, merge your updates or changes here.
+
+```npm run gh-pages```  what this command does is compiled (if not compiled) then drops compiled files into root folder.<br>
 **Note:** this comand should be used in ***gh-pages*** branch only.
 
-Run ```docker-compose exec web /bin/bash``` to access docker machine from terminal an run other grunt/npm comands.
-
-```docker-compose stop``` to turn off the docker container.
-
-```docker-compose down``` to remove this container, Always use this command after you are done with this repo.<br>
-**Note:** Remove your www folder after you are done.
+Once this is fine in your browser just commit and push to github.
 
 Read more in [here](https://github.com/mshanken/harp-boilerplate/#readme)
+
