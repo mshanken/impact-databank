@@ -26,10 +26,6 @@
     "server": "harp _site",
     "browsersync": "browser-sync start --proxy 'localhost:9000' --files '_site/public/**/*.ejs, _site/public/**/_*.ejs, _site/public/**/*.md, _site/public/**/*.scss, _site/public/**/*.less, _site/public/_data.json' --no-open",
     "serve": "concurrently \"npm:server\" \"npm:browsersync\"",
-    "modernizr": "node_modules/modernizr/bin/modernizr -c config-all.json && mv modernizr.js _site/public/js/vendor/modernizr.js",
-    "jquery": "cp node_modules/jquery/dist/jquery.js _site/public/js/vendor/",
-    "jquery-1": "jquery-builder > _site/public/js/vendor/jquery-1.11.1.js",
-    "jquery-2": "jquery-builder --version 2.1.1 > _site/public/js/vendor/jquery-2.1.1.js",
     "compile": "harp _site www && grunt concat && grunt uglify",
     "gh-pages": "harp _site www && grunt concat && grunt uglify && grunt copy:ghpages",
     "static": "grunt harp:staticserver",
@@ -37,14 +33,10 @@
   },
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^5.3.2",
     "concurrently": "^7.3.0",
-    "font-awesome": "^4.7.0",
     "html5shiv": "^3.7.3",
-    "jay-respond": "^1.4.3",
-    "jquery": "^3.5.1",
-    "modernizr": "^3.11.3",
-    "popper.js": "^1.16.1"
+    "jay-respond": "^1.4.3"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
