@@ -11,6 +11,14 @@ collections_config:
     disable_url: false
     include_developer_files: false
     description: ''
+    preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      image:
+      metadata:
+      gallery:
     _editables:
       text:
         allow_custom_markup: true
@@ -85,6 +93,10 @@ collections_config:
     _enabled_editors:
       - visual
       - content
+    _inputs:
+      textarea:
+        type: textarea
+        cascade: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
