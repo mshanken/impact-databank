@@ -5,10 +5,86 @@ paths:
   static: static
 collections_config:
   pages:
-    path: ''
+    path: /
     name: Pages
     icon: wysiwyg
     disable_url: false
+    include_developer_files: false
+    description: ''
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold:
+        copyformatting:
+        italic:
+        link:
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
+      content:
+        allow_custom_markup: false
+        remove_custom_markup: false
+        blockquote:
+        bold:
+        bulletedlist:
+        center:
+        code:
+        copyformatting:
+        embed:
+        expandable:
+        format:
+        height:
+        horizontalrule:
+        image:
+        image_size_attributes: true
+        indent:
+        italic:
+        justify:
+        left:
+        link:
+        mime_type:
+        numberedlist:
+        outdent:
+        paths:
+        redo:
+        removeformat:
+        resize_style:
+        right:
+        snippet:
+        strike:
+        styles:
+        subscript:
+        superscript:
+        table:
+        underline:
+        undo:
+        width:
+      image:
+        expandable:
+        height:
+        image_size_attributes: true
+        mime_type:
+        paths:
+        resize_style:
+        width:
+      link:
+        paths:
+          uploads: /images
+          uploads_filename:
+          uploads_use_relative_path: true
+          static:
+          dam_uploads:
+          dam_uploads_filename:
+          dam_static:
+    _enabled_editors:
+      - visual
+      - content
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
