@@ -27,7 +27,7 @@
     "browsersync": "browser-sync start --proxy 'localhost:9000' --files '_site/public/**/*.ejs, _site/public/**/_*.ejs, _site/public/**/*.md, _site/public/**/*.scss, _site/public/**/*.less, _site/public/_data.json' --no-open",
     "serve": "concurrently \"npm:server\" \"npm:browsersync\"",
     "compile": "harp _site www && grunt concat && grunt uglify",
-    "gh-pages": "harp _site ./ && grunt concat && grunt uglify",
+    "gh-pages": "harp _site www && grunt concat && grunt uglify",
     "static": "grunt harp:staticserver",
     "test": ""
   },
